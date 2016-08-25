@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+        <RadioGroup
+            android:id="@+id/rg_tab"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+                style="@style/test_tab"
+                android:text="微博"/>
+            <RadioButton
+                style="@style/test_tab"
+                android:text="评论"/>
+            <RadioButton
+                style="@style/test_tab"
+                android:text="动态" />
+            <RadioButton
+                style="@style/test_tab"
+                android:text="设置"/>
+        </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.autobag">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23"/>
+
+    <application
+        android:value="channel_value"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--<service  android:name="com.example.autobag.MyService"-->
+            <!--android:label="@string/app_name"-->
+            <!--android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.accessibilityservice.AccessibilityService"/>-->
+            <!--</intent-filter>-->
+            <!--<meta-data-->
+                <!--android:name="android.accessiblilityservice"-->
+                <!--android:resource="@xml/nenotification_service_config"/>-->
+        <!--</service>-->
+
+        <service  android:name="com.example.autobag.MyService"
+            android:label="@string/app_name">
+        </service>
+        <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+        <meta-data android:name="apk_channel"
+            android:value="channel_10086"/>
+    </application>
+
+</manifest>

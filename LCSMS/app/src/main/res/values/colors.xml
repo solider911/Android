@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#2894e7</color>
+    <color name="colorAccent1">#0066cc</color>
+    <color name="white">#FFFFFF</color>
+    <color name="cee">#EEEEEE</color>
+    <color name="black">#000000</color>
+    <color name="tab_title_normal_color">#262726</color>
+    <color name="tab_title_pressed_color">#16982b</color>
+    <color name="tab_middle_line_color">#5c882c</color>
+    <color name="blue_deep">#153973</color>
+    <color name="red">#F25339</color>
+    <color name="gray">#ECECEC</color>
+    <color name="title_color">#4d4d4d</color>
+    <color name="title_number">#212121</color>
+    <color name="title_xiaoxi">#808080</color>
+    <color name="title_xian">#e0e0e0</color>
+    <color name="tilte_padding">#e0e0e0</color>
+    <color name="title_app_name">#212121</color>
+    <color name="title_app_number">#8a8a8a</color>
+    <color name="money_tell">#757575</color>
+    <color name="task_info">#acacac</color>
+    <color name="task_dowenapp">#f25339</color>
+    <color name="paogress_backgrund">#cb442e</color>
+    <color name="task_app_info">#a3a3a3</color>
+    <color name="popuWindow">#f0f0f0</color>
+
+    <color name="mingtian">#a3a3a3</color>
+    <color name="hongbaotitle">#4d4d4d</color>
+    <color name="yellow">#FFD700</color>
+    <color name="transparent">#00000000</color>
+    <color name="hongbao_beijing">#b3b3b3</color>
+</resources>
